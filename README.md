@@ -1,5 +1,7 @@
 # terra-template README
 
+* 인증 저장
+
 [몇 분 동안 인증 캐쉬]
  - git config --global credential.helper cache
 
