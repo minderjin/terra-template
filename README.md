@@ -1,6 +1,7 @@
 # terra-template README
 [디렉토리 초기화]
 - git init
+- git remote add origin https://github.com/minderjin/terra-template.git
 
 [소스 복제]
 - git clone https://github.com/minderjin/terra-template.git
