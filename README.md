@@ -1,7 +1,7 @@
 # terra-template README
 
-[output 컬러 출력 세팅]
-- git config color.ui true
+[인증 캐쉬]
+ - git config --global credential.helper cache
 
 [디렉토리 초기화]
 - git init
