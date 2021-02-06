@@ -1,7 +1,10 @@
 # terra-template README
 
-[인증 캐쉬]
+[몇 분 동안 인증 캐쉬]
  - git config --global credential.helper cache
+
+[인증 정보 파일 저장]
+ - git config --global credential.helper 'store --file ~/credential'
 
 [디렉토리 초기화]
 - git init
