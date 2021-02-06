@@ -1,4 +1,4 @@
-# terra-template
+# terra-template README
 
 - git clone https://github.com/minderjin/terra-template.git
 - git init
