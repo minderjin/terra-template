@@ -56,6 +56,7 @@ variable "create_database_internet_gateway_route" {}
 # variable "apigw_endpoint_subnet_ids" {}
 
 
+### Custom ###
 # variable "amis" {}
 # variable "amis" {
 #   type = map(string)
