@@ -11,12 +11,12 @@ variable "enable_nat_gateway" {}
 variable "single_nat_gateway" {}
 variable "one_nat_gateway_per_az" {}
 
+variable "create_database_subnet_group" {}
+variable "create_database_subnet_route_table" {}
+variable "create_database_internet_gateway_route" {}
+
+
 # variable "amis" {}
-
-
-# variable "region" {
-#   default = "us-west-2"
-# }
 
 # variable "amis" {
 #   type = map(string)
