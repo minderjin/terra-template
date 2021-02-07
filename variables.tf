@@ -1,7 +1,5 @@
-variable "region" {}
-variable "amis" {}
-
 variable "name" {}
+
 variable "region" {}
 variable "azs" {}
 
