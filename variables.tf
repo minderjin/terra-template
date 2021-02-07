@@ -11,7 +11,7 @@ variable "enable_nat_gateway" {}
 variable "single_nat_gateway" {}
 variable "one_nat_gateway_per_az" {}
 
-variable "amis" {}
+# variable "amis" {}
 
 
 # variable "region" {
