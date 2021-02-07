@@ -1,4 +1,20 @@
-# usage : terraform apply -var-file=terraform.tfvars
+###############################################################################################################################################################################
+# Terraform loads variables in the following order, with later sources taking precedence over earlier ones:
+# 
+# Environment variables
+# The terraform.tfvars file, if present.
+# The terraform.tfvars.json file, if present.
+# Any *.auto.tfvars or *.auto.tfvars.json files, processed in lexical order of their filenames.
+# Any -var and -var-file options on the command line, in the order they are provided. (This includes variables set by a Terraform Cloud workspace.)
+###############################################################################################################################################################################
+#
+# terraform cloud 와 별도로 동작
+# terraform cloud 의 variables 와 동등 레벨
+#
+# Usage :
+#
+#   terraform apply -var-file=terraform.tfvars
+#
 
 name   = "my-vpc"
 region = "us-west-2"
@@ -16,3 +32,4 @@ amis = {
   "us-east-1" = "ami-b374d5a5"
   "us-west-2" = "ami-fc0b939c"
 }
+
